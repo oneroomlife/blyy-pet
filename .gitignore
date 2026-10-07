@@ -1,0 +1,29 @@
+# ============================================================
+# 本仓库为「文档仓库」：仅提交 README.md / LICENSE / .gitignore。
+# 源代码、测试与项目配置一律不入库；如未来开源源码，删除本段即可。
+# ============================================================
+/src/
+/tests/
+/build/
+/dist*/
+/package.json
+/package-lock.json
+/launch.ps1
+/start.bat
+/start.ps1
+/.zcode/
+
+# 依赖与本地运行数据（同样不提交）
+node_modules/
+.user-data/
+.verify_userdata/
+.electron-cache/
+.npm-cache/
+.cache/
+.diag/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.vscode/
+.idea/
